@@ -12,7 +12,7 @@ export const WarnBlock = ({
   return (
     <Box
       borderRadius="md"
-      p={4}
+p={4}
       pr={2}
       bg={useColorModeValue('orange.200', 'orange.300')}
       color="blackAlpha.900"
@@ -31,7 +31,7 @@ export const WarnBlock = ({
             'rgba(0,0,0,0.3) rgba(0,0,0,0.2)',
             'rgba(255,255,255,0.2) rgba(255,255,255,0.1)'
           ),
-          // For Chrome and other browsers except Firefox
+          // For WebKit/Blink browsers except Firefox
           '&::-webkit-scrollbar': {
             width: '14px',
             background: useColorModeValue(
